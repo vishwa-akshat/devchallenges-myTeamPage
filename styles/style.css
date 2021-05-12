@@ -1,0 +1,137 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 7vh 14vw 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header h1 {
+  width: 50vw;
+  font-weight: 700;
+  font-size: 2.5vw;
+  font-family: "PT Serif", serif;
+  line-height: 0.5;
+}
+
+.header .header-text {
+  width: 30vw;
+}
+
+.header .header-text h3 {
+  line-height: 0.5;
+}
+
+.container {
+  width: 100%;
+  margin-top: 7vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .img-container {
+  width: 25%;
+  margin: 0 5vw 7vh 0;
+}
+
+.container .img-container .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .img-container .img img {
+  width: 100%;
+}
+
+.container .img-container .img .position {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-family: "PT Serif", serif;
+  line-height: 0;
+}
+
+.container .img-container h3 {
+  line-height: 0.7;
+}
+
+.container .two {
+  margin-top: 16vh;
+}
+
+.container .five {
+  margin-top: 16vh;
+}
+
+.attribute {
+  text-align: center;
+}
+
+@media only screen and (max-width: 540px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    padding: 8vh 3vw 0;
+    background-color: #f4f4f4;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header h1 {
+    width: 100vw;
+    font-size: 8vw;
+    margin-bottom: 7vh;
+  }
+  .header .header-text {
+    width: 80vw;
+  }
+  .header .header-text h3 {
+    line-height: 0.5;
+  }
+  .container {
+    width: 100%;
+    margin-top: 7vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .img-container {
+    width: 40%;
+    margin: 0 5vw 2vh 0;
+  }
+  .container .two,
+  .container .four,
+  .container .six {
+    margin-top: 10vh;
+  }
+  .attribute {
+    text-align: center;
+    position: relative;
+    font-size: 0.8rem;
+    left: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
